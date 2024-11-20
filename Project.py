@@ -2,7 +2,7 @@
 import mysql.connector as p
 import matplotlib.pyplot as plt             #importing required modules
 import tkinter as tk
-cn=p.connect(host='localhost',user='root',passwd='batakh',database='Project32')       #establishing connection
+cn=p.connect(host='localhost',user='root',passwd='batakh',database='project32')       #establishing connection
 #--------------------------------------------------------------Insert------------------------------------------------------------
 def p_insert():
     def extra():
@@ -625,7 +625,7 @@ E2=tk.Entry(home,show='*')
 E2.place(relx=0.5,rely=0.45,anchor='center')
 B1=tk.Button(home,text='OK',command=check,justify='center')
 B1.place(relx=0.5, rely=0.55, anchor='center')
-L3=tk.Label(home,text='Prepared by Shreyash, Shreyansh, Sumit')
+L3=tk.Label(home,text='Prepared by Shreyash')
 L3.place(x=1,rely=1,anchor='sw')
 L3['background']='light cyan'
 tk.mainloop()
